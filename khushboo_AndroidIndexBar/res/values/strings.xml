@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidIndexBarTest</string>
+	<string-array name="alphabtes_array">
+	    <item>A</item>
+	    <item>B</item>
+	    <item>C</item>
+	    <item>D</item>
+	    <item>E</item>
+	    <item>F</item>
+	    <item>G</item>
+	    <item>H</item>
+	    <item>I</item>
+	    <item>J</item>
+	    <item>K</item>
+	    <item>L</item>
+	    <item>M</item>
+	    <item>N</item>
+	    <item>O</item>
+	    <item>P</item>
+	    <item>Q</item>
+	    <item>R</item>
+	    <item>S</item>
+	    <item>T</item>
+	    <item>U</item>
+	    <item>V</item>
+	    <item>W</item>
+	    <item>X</item>
+	    <item>Y</item>
+	    <item>Z</item>
+	</string-array>
+	<string-array name="base_array">
+	    <item >Alphabets</item>
+	    <item >Apple</item>
+	    <item >Airplane</item>
+	    <item >Banana</item>
+		<item >Boy</item>
+		<item >Bicycle</item>
+		<item >Car</item>
+		<item >Carrot</item>
+		<item >Dog</item>
+	    <item >Donkey</item>
+	    <item >Flight</item>
+	    <item >Flower</item>
+	    <item >Hover</item>
+		<item >Howard</item>
+		<item >Holland</item>
+		<item >Hug</item>
+		<item >House</item>
+		<item >Hallow</item>
+	    <item >Icecream</item>
+	    <item >Jug</item>
+	    <item >Jassmine</item>
+	    <item >Jely Bean</item>
+		<item >Khushboo</item>
+		<item >Kamal</item>
+		<item >Mango</item>
+		<item >Margo</item>
+		<item >Melon</item>
+	    <item >Mouse</item>
+	    <item >Narrow</item>
+	    <item >Noose</item>
+	    <item >Nilon</item>
+		<item >Oops</item>
+		<item >Owl</item>
+		<item >Parrot</item>
+		<item >Pencil</item>
+		<item >Palates</item>
+	    <item >Pillow</item>
+	    <item >Queue</item>
+	    <item >Qwk</item>
+	    <item >Rat</item>
+		<item >Run</item>
+		<item >Ranbeer</item>
+		<item >Raina</item>
+		<item >Ribbon</item>
+		<item >Swallow</item>
+	    <item >Sarawati</item>
+	    <item >Singing</item>
+	    <item >Shine</item>
+	    <item >Tea</item>
+		<item >Tamarind</item>
+		<item >Tiger</item>
+		<item >Vivek</item>
+		<item >Voilet</item>
+		<item >Voilence</item>
+	    <item >Value</item>
+	    <item >Vent</item>
+	    <item >Wall</item>
+	    <item >Wand</item>
+		<item >X</item>
+		<item >Yogurt</item>
+		<item >Yatch</item>
+		<item >Z</item>
+		
+	    
+	</string-array>
+</resources>

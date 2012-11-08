@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" 
+        android:layout_height="match_parent"
+		android:layout_width="match_parent" 
+		android:id="@+id/relativeLayout1"
+		>
+    <ListView 
+	 	android:layout_height="wrap_content"
+		android:layout_width="match_parent" 
+		android:id="@+id/listView_main"
+		android:entries="@array/base_array"
+		android:scrollingCache="false" 
+		android:scrollbarAlwaysDrawVerticalTrack="true" 
+		>
+    </ListView>
+		
+	<ListView 
+		android:layout_height="wrap_content"
+		android:id="@+id/listView_alphabets"
+		android:layout_alignParentRight="true"
+		android:scrollingCache="false"
+		android:scrollbarAlwaysDrawVerticalTrack="false"
+		android:footerDividersEnabled="false" 
+		android:headerDividersEnabled="false" 
+		android:layout_width="30dip"
+		android:divider="@color/black"
+		android:scrollbars="none"
+		>
+	</ListView>	
+			
+</RelativeLayout>
