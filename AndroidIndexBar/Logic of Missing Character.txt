@@ -1,0 +1,50 @@
+int omit	 	 		/* number of characters which should be omitted */
+int list_height			/* height of the listview */
+int row_height			/* height of one row */
+int num_chars_allowed 	/* number of characters allowed on the screen. This depends on two things: dots and characters */
+
+If omitt==1 oe omitt==2
+	reduce the height of each row of the listview to accomodate these many characters. Depending on the number of characters which are to be adjusted, 
+	the height of each row is reduced by that many pixels. 
+
+If omitt=3,4
+	remove  'F' 'G' and 'T' i.e. 6th, 7th from first half and 20th character from second half. Remove U (21st) if omitt==4.
+	Add dots at these two places.
+	To accomodate two dots, remove 8th character ('H')  and then remove 22nd character also ('V')
+
+If omitt=5,6
+	Three halves as there could be 8,9 characters to be removed.
+	
+	remove 'F' 'G' || 'O' || 'X','Y' =  6,7 || 15 || 24,25
+	remove 'F' 'G' || 'O','P' || 'X','Y' =  6,7 || 15,16 || 24,25	
+	
+	For five characters:
+	remove 'F' 'G' || 'O','P' || 'X','Y' =  6,7 || 15,16 || 24,25	
+	remove 'F' 'G' || 'O','P','Q' || 'X','Y' =  6,7 || 15,16,17 || 24,25
+	remove 'F' 'G','H' || 'O','P','Q' || 'X','Y' =  6,7,8 || 15,16,17 || 24,25
+	
+	For 6 Characters
+	remove 'F' 'G' || 'O','P','Q' || 'X','Y' =  6,7 || 15,16,17 || 24,25
+	remove 'F' 'G','H' || 'O','P','Q' || 'X','Y' =  6,7,8 || 15,16,17 || 24,25
+	remove 'F' 'G','H' || 'O','P','Q' || 'W','X','Y' =  6,7,8 || 15,16,17 || 23,24,25
+	
+If omitt=7,8
+	Four halves as there would be  characters to be removed.
+	remove D,E  ||  J,K  ||  Q,R  ||  Y 
+	remove D,E  ||  J,K  ||  Q,R  ||  X,Y
+	No coding is required for above two conditions,there would be atleast one omittance.
+	For 7 characters:	
+	remove D,E  ||  J,K  ||  Q,R  ||  X,Y
+	remove C,D,E  ||  J,K  ||  Q,R  || X,Y
+	remove C,D,E  ||  I,J,K  ||  Q,R  ||  X,Y
+	remove C,D,E  ||  I,J,K  ||  P,Q,R  ||  X,Y
+	
+	For 8 characters:	
+	remove C,D,E  ||  J,K  ||  Q,R  || X,Y
+	remove C,D,E  ||  I,J,K  ||  Q,R  ||  X,Y
+	remove C,D,E  ||  I,J,K  ||  P,Q,R  ||  X,Y
+	remove C,D,E  ||  I,J,K  ||  P,Q,R  ||  W,X,Y
+	First three rows are same for both the characters.
+
+
+	
